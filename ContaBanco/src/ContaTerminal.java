@@ -2,6 +2,16 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class ContaTerminal {
+    /**
+     * <h1>ContaTerminal</h1>
+     * Desafio de Projeto da DIO - Simulando Uma Conta Bancária Através Do Terminal/Console.
+     * <p>
+     * <b>Note:</b> Desenvolvido na linguagem Java.
+     *
+     * @author  Marcos Ferreira Shirafuchi
+     * @version 1.0
+     * @since   28/04/2024
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
         System.out.println("Por favor, digite o número da Agência !");
